@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: "Work Sans", Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /* Medidas Absolutas 
+            cm, mm, in, px, pt, e pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, e %
+
+            USAR "em" E "px"!!!
+            */
+
+            /* lighter, normal, bold e bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em "Work-Sans", sans-serif;
+        }
+
+        h2 {
+            font: bold 2em "Work-Sans";
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi beatae ipsum consequuntur mollitia rem ipsam dolores fugit, nam ullam voluptates inventore at repellat deleniti modi quae aspernatur facere cumque quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ullam rerum quis veniam, nam nobis doloremque iste eius, dicta deserunt, distinctio corrupti expedita! Aperiam sed nisi dolor! Sequi, dolor vitae!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, recusandae suscipit. Qui, quam. Ea reiciendis quos corrupti laudantium at enim voluptate quibusdam, labore sequi, pariatur, minus earum unde odit officiis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores omnis aspernatur eum tempora eius illo quod, natus ipsam, voluptas eligendi animi fuga tenetur numquam laudantium dolores nostrum incidunt suscipit quos!</p>
+</body>
+</html>
